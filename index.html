@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Seun Adeleye - Data Scientist focused on healthcare analytics, machine learning, data engineering, and data governance.">
   <title>Seun Adeleye — Data Science & ML</title>
   <style>
     * {
@@ -198,7 +199,6 @@
 
     .skill-card strong {
       display: block;
-      font-size: 14px;
       color: var(--teal);
       margin-bottom: 8px;
       text-transform: uppercase;
@@ -398,8 +398,9 @@
     <div class="container" style="width: 100%; display: flex; justify-content: space-between; align-items: center;">
       <div class="logo">SA</div>
       <nav>
-        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -408,7 +409,7 @@
   <div class="container">
     <section class="hero">
       <h1>Data Science & Machine Learning for Healthcare</h1>
-      <p>I build production data systems, predictive models, and governed analytics solutions that drive measurable outcomes at scale. 5+ years applying ML and data engineering to complex healthcare and survey data—from forecasting clinical events to building cloud-native data lakehouses.</p>
+      <p>I build predictive models, data pipelines, and governed analytics solutions that drive measurable outcomes. My work spans healthcare analytics and enterprise data systems, from forecasting hospital harm events to designing cloud data lakehouse architectures.</p>
       <div class="cta-group">
         <a href="#projects" class="btn btn-primary">View Work</a>
         <a href="mailto:adeleyeoo20@gmail.com" class="btn btn-secondary">Get In Touch</a>
@@ -417,7 +418,7 @@
 
     <section id="skills">
       <div class="section-title">Technical Stack</div>
-      
+
       <div class="skills-grid">
         <div class="skill-card">
           <strong>Languages & Analysis</strong>
@@ -437,22 +438,22 @@
         </div>
         <div class="skill-card">
           <strong>Data Governance</strong>
-          <p>Access Controls, Data Dictionaries, HIPAA Compliance, Privacy</p>
+          <p>Access Controls, Data Dictionaries, Data Quality, Compliance</p>
         </div>
         <div class="skill-card">
           <strong>Visualization & Tools</strong>
-          <p>Tableau, Power BI, Looker, Git, Feature Engineering</p>
+          <p>Tableau, Power BI, Looker, DOMO, Git, Feature Engineering</p>
         </div>
       </div>
     </section>
 
     <section id="projects">
       <div class="section-title">Featured Projects</div>
-      
+
       <div class="projects-grid">
         <div class="project-card">
           <div class="project-header">
-            <div class="project-category">Cloud Data Engineering</div>
+            <div class="project-category">Cloud Data Engineering · Personal Project</div>
             <h3>Healthcare Data Lakehouse on AWS</h3>
           </div>
           <p>Designed and built an end-to-end medallion-architecture data lakehouse on AWS using synthetic HIPAA-style patient records. Landed raw CSVs in S3 (bronze), cleaned with Glue ETL jobs into Parquet (silver), and built gold tables for clinical analytics. Enforced column-level access controls with Lake Formation and orchestrated pipeline steps with Step Functions and CloudWatch monitoring.</p>
@@ -471,12 +472,11 @@
             <div class="project-category">Predictive Modeling</div>
             <h3>Hospital Harm Event Prediction</h3>
           </div>
-          <p>Built and deployed a machine learning model to forecast hospital harm events, replacing a fully reactive process with proactive risk flagging. Model contributed to 12% reduction in harm events over six months. Integrated predictions into operational workflows to enable preventive interventions.</p>
+          <p>Built and deployed a machine learning model to forecast hospital harm events, replacing a fully reactive process with proactive risk flagging. The model contributed to a 12% reduction in harm events over six months.</p>
           <div class="tech-stack">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Machine Learning</span>
+            <span class="tech-tag">Predictive Modeling</span>
             <span class="tech-tag">Healthcare Data</span>
-            <span class="tech-tag">Feature Engineering</span>
           </div>
         </div>
 
@@ -485,12 +485,11 @@
             <div class="project-category">Data Visualization</div>
             <h3>Real-Time Nurse Staffing Dashboard</h3>
           </div>
-          <p>Built a real-time dashboard tracking actual versus budgeted FTEs, department-level role gaps, and hire/termination data. Replaced delayed reporting with immediate visibility, enabling faster hiring decisions and cross-department staffing optimization. Integrated with live HR and payroll systems.</p>
+          <p>Built a real-time dashboard tracking actual versus budgeted FTEs, department-level role gaps, and new hire and termination data. Replaced delayed reporting with immediate visibility, enabling faster hiring and cross-department staffing decisions.</p>
           <div class="tech-stack">
-            <span class="tech-tag">Tableau</span>
-            <span class="tech-tag">SQL</span>
-            <span class="tech-tag">Python</span>
+            <span class="tech-tag">BI Dashboards</span>
             <span class="tech-tag">Real-time Data</span>
+            <span class="tech-tag">Workforce Analytics</span>
           </div>
         </div>
 
@@ -499,11 +498,10 @@
             <div class="project-category">AI & NLP</div>
             <h3>Patient Feedback Analysis with AI Agents</h3>
           </div>
-          <p>Replaced manual, inconsistent review of patient survey comments with AI-powered agents that systematically analyze feedback and generate service improvement recommendations. Multiple recommendations were implemented and linked to improved HCAHPS scores in affected units.</p>
+          <p>Replaced manual, inconsistent review of patient survey comments with AI-powered agents that systematically analyze feedback and generate service improvement recommendations. Several recommendations were implemented and linked to improved HCAHPS scores in affected units.</p>
           <div class="tech-stack">
             <span class="tech-tag">AI Agents</span>
             <span class="tech-tag">NLP</span>
-            <span class="tech-tag">Python</span>
             <span class="tech-tag">Healthcare Analytics</span>
           </div>
         </div>
@@ -513,26 +511,26 @@
             <div class="project-category">Machine Learning</div>
             <h3>Cancer Data Clustering</h3>
           </div>
-          <p>Developed unsupervised ML pipeline to cluster 500K+ rows of clinical cancer research data. Applied dimensionality reduction (PCA, t-SNE, UMAP) to extract patterns from messy real-world datasets. Optimized algorithms for scalability on large, disorganized data.</p>
+          <p>Developed unsupervised learning models to cluster over 500,000 rows of clinical cancer research data. Applied dimensionality reduction (PCA, t-SNE, UMAP) to visualize high-dimensional data and extract patterns, and used batch processing to keep the algorithms scalable on large datasets.</p>
           <div class="tech-stack">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">Scikit-learn</span>
             <span class="tech-tag">K-Means</span>
             <span class="tech-tag">DBSCAN</span>
+            <span class="tech-tag">Gaussian Mixture</span>
           </div>
         </div>
 
         <div class="project-card">
           <div class="project-header">
-            <div class="project-category">Data Pipeline</div>
-            <h3>Financial Settlement Automation</h3>
+            <div class="project-category">Process Automation</div>
+            <h3>Payment Settlement Automation</h3>
           </div>
-          <p>Designed and deployed an end-to-end financial settlement pipeline using Python and SQL, reducing processing time from 15 business days to 4. Built with error handling, monitoring, and validation logic to ensure data accuracy in downstream reporting.</p>
+          <p>Designed and tested an in-house payment settlement application using Python and SQL, automating accounts payable and receivable processes and reducing payment processing time from 15 business days to 4.</p>
           <div class="tech-stack">
             <span class="tech-tag">Python</span>
             <span class="tech-tag">SQL</span>
-            <span class="tech-tag">Snowflake</span>
-            <span class="tech-tag">Monitoring</span>
+            <span class="tech-tag">Process Automation</span>
           </div>
         </div>
       </div>
@@ -540,28 +538,28 @@
 
     <section id="about">
       <div class="section-title">About</div>
-      
+
       <div class="about-content">
         <div class="about-text">
-          <h3>Data science for healthcare at scale</h3>
-          <p>I'm a data scientist and engineer focused on building production systems that drive measurable outcomes in healthcare. My expertise spans machine learning, cloud data engineering, healthcare analytics, and data governance—from forecasting clinical harm to building HIPAA-compliant data lakehouses on AWS.</p>
-          <p>I work hands-on across the stack: designing data architecture, building ML models that replace reactive processes with proactive insights, and shipping systems that clinical and operational teams rely on daily.</p>
+          <h3>Data science for healthcare</h3>
+          <p>I'm a data scientist and engineer focused on building systems that drive measurable outcomes in healthcare. My expertise spans machine learning, ETL and data engineering, healthcare analytics, and data governance, from forecasting hospital harm events to designing a medallion-architecture lakehouse on AWS.</p>
+          <p>I work hands-on across the stack: designing data architecture, building models that replace reactive processes with proactive insights, and delivering dashboards and tools that clinical and operational teams rely on.</p>
           <h3 style="margin-top: 32px;">What drives me</h3>
-          <p>I'm drawn to problems where <span class="highlight">data clarity translates directly to better patient outcomes</span>. Whether forecasting hospital harm events (12% reduction achieved), automating manual survey analysis with AI agents, or building governed data systems that teams trust—I focus on solutions that are accurate, maintainable, and deeply understood by stakeholders.</p>
+          <p>I'm drawn to problems where <span class="highlight">data clarity translates directly to better patient outcomes</span>. Whether forecasting hospital harm events (a 12% reduction in harm events over six months), automating manual survey analysis with AI agents, or building governed data systems that teams trust, I focus on solutions that are accurate, maintainable, and well understood by stakeholders.</p>
         </div>
 
         <div class="stats">
           <div class="stat">
-            <div class="stat-number">5+</div>
-            <div class="stat-label">Years in analytics & data science</div>
-          </div>
-          <div class="stat">
-            <div class="stat-number">Millions</div>
-            <div class="stat-label">Rows processed & modeled</div>
+            <div class="stat-number">12%</div>
+            <div class="stat-label">Reduction in harm events over six months</div>
           </div>
           <div class="stat">
             <div class="stat-number">95%+</div>
-            <div class="stat-label">System uptime & SLA compliance</div>
+            <div class="stat-label">SLA compliance in application support</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">15 → 4</div>
+            <div class="stat-label">Business days to process payments</div>
           </div>
         </div>
       </div>
@@ -569,11 +567,11 @@
 
     <section id="contact" class="contact-section">
       <h2>Let's Work Together</h2>
-      <p>I'm open to collaborations, consulting, and full-time opportunities in data science and ML.</p>
+      <p>I'm open to collaborations, consulting, and full-time opportunities in data science, data engineering, and ML.</p>
       <div class="social-links">
         <a href="mailto:adeleyeoo20@gmail.com">Email</a>
-        <a href="https://github.com/SeunSolutions" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/seun-adeleye" target="_blank">LinkedIn</a>
+        <a href="https://github.com/SeunSolutions" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/seun-adeleye" target="_blank" rel="noopener">LinkedIn</a>
       </div>
       <p style="font-size: 14px; color: var(--text-secondary);">Chicago, IL • adeleyeoo20@gmail.com • 901-830-1374</p>
     </section>
@@ -581,7 +579,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Seun Adeleye. Designed & built with precision.</p>
+      <p>&copy; 2026 Seun Adeleye. Designed & built with precision.</p>
     </div>
   </footer>
 </body>
